@@ -8,16 +8,50 @@
 
     <!-- CSS Section -->
     <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/foundation.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
 
 </head>
 <body>
-    <h1>Hello World</h1>
+<div class="row">
+    <aside class="large-4 small-6 columns">
+        <img src="http://placehold.it/150x150/" alt="logo" />
+    </aside>
+    <header class="large-8 small-6 columns">
+        <h1>Hello World</h1> 
+    </header>
 
-    <!-- JavaScript Section -->
-    <script src="Scripts/lib/jquery.js"></script>
+</div>
+<div id="content" class="row">
+    <article class="large-6 small-6 columns">
+        <h2>Main Article</h2>
+        <p>Ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate</p>
+
+
+    </article>
+    <aside class="large-5 large-offset-1 small-offset-1 small-5 columns">
+        <h3>This is my Aside</h3>
+        <p>Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.</p>
+    </aside>
+</div>
+
+<div class="row">
+    <div class="large-12 columns">
+        <div class=" medium-block-grid-3">
+            <img src="http://lorempixel.com/150/150/business/7/" alt="" />
+            <img src="http://lorempixel.com/150/150/business/6/" alt="" />
+            <img src="http://lorempixel.com/150/150/business/5/" alt="" />
+            <img src="http://lorempixel.com/150/150/business/4/" alt="" />
+            <img src="http://lorempixel.com/150/150/business/3/" alt="" />
+            <img src="http://lorempixel.com/150/150/business/2/" alt="" />
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript Section -->
+<script src="Scripts/lib/jquery.js"></script>
 <script src="Scripts/lib/foundation.min.js"></script>
-    <script>$(document).foundation();</script>
-    <script src="Scripts/lib/app.js"></script>
+<script>$(document).foundation();</script>
+<script src="Scripts/lib/app.js"></script>
 </body>
 </html>
